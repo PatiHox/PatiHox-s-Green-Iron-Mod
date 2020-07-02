@@ -1,0 +1,9 @@
+Manifest-Version: 1.0
+Implementation-Title: mc-mod-proj-1.15.2
+Implementation-Version: 1.0
+Specification-Vendor: examplemodsareus
+Specification-Title: examplemod
+Implementation-Timestamp: 2020-07-02T10:20:32+0300
+Specification-Version: 1
+Implementation-Vendor: examplemodsareus
+
