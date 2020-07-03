@@ -23,11 +23,10 @@ credits="Thanks for this mod goes to Java, FML Team and TurtyWurty" #optional
 
 authors="PatiHox" #optional
 
-description='''
-    I don't know how would a green iron mod look if someone else made it (but it must be pretty common)
-        But this is how it should look from my point of view.
+description='''I don't know how would a green iron mod look if someone else made it (but it must be pretty common)
+But this is how it should look from my point of view.
 
-    Hope you'll enjoy it :D
+Hope you'll enjoy it :D
 '''
 
 # A dependency - use the . to indicate dependency for a specific modid. Dependencies are optional.
