@@ -19,5 +19,8 @@ public class ItemInit {
     public static void registerItems(final RegistryEvent.Register<Item> event){
         event.getRegistry().register(new Item(new Item.Properties().group(GreenIronMod.GreenIronItemGroup.instance)).setRegistryName("example_item"));
         event.getRegistry().register(new Item(new Item.Properties().group(GreenIronMod.GreenIronItemGroup.instance)).setRegistryName("green_grit"));
+        event.getRegistry().register(new Item(new Item.Properties().group(GreenIronMod.GreenIronItemGroup.instance)).setRegistryName("green_crystal"));
+        event.getRegistry().register(new Item(new Item.Properties().group(GreenIronMod.GreenIronItemGroup.instance)).setRegistryName("green_iron"));
+        event.getRegistry().register(new Item(new Item.Properties().group(GreenIronMod.GreenIronItemGroup.instance)).setRegistryName("green_iron_raw"));
     };
 }

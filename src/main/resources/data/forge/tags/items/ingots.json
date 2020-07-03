@@ -1,6 +1,8 @@
 {
   "replace": false,
   "values": [
-    "phs-greenironmod:example_item"
+    "phs-greenironmod:example_item",
+    "phs-greenironmod:green_iron",
+    "phs-greenironmod:green_iron_raw"
   ]
 }

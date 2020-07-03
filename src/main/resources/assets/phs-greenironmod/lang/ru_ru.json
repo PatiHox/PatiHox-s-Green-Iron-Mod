@@ -1,9 +1,11 @@
 {
-  "item.phs-greenironmod.example_item": "Бомажка",
-
   "block.phs-greenironmod.green_ore": "Зелёная руда",
 
   "itemGroup.phs-greenirontab": "PHsGIM",
 
-  "item.phs-greenironmod.green_grit": "Зелёная пыль"
+  "item.phs-greenironmod.green_grit": "Зелёная пыль",
+  "item.phs-greenironmod.example_item": "Древняя писанина",
+  "item.phs-greenironmod.green_crystal": "Зелёнорудный кристалл",
+  "item.phs-greenironmod.green_iron": "Слиток зелёного железа",
+  "item.phs-greenironmod.green_iron_raw": "Сырой слиток зелёного железа"
 }
