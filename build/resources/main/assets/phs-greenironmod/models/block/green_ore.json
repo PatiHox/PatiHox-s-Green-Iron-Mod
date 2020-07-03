@@ -1,6 +1,0 @@
-{
-  "parent": "block/cube_all",
-  "textures": {
-    "all": "phs-greenironmod:blocks/green_ore"
-  }
-}
