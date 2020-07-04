@@ -1,9 +1,13 @@
 {
-  "item.phs-greenironmod.example_item": "Example item",
-
   "block.phs-greenironmod.green_ore": "Green ore",
 
   "itemGroup.phs-greenirontab": "PHsGIM",
 
-  "item.phs-greenironmod.green_grit": "Green grit"
+  "item.phs-greenironmod.green_grit": "Green grit",
+  "item.phs-greenironmod.ancient_paper": "Ancient records",
+  "item.phs-greenironmod.green_crystal": "Green ore crystal",
+  "item.phs-greenironmod.green_iron": "Green iron ingot",
+  "item.phs-greenironmod.green_iron_raw": "Raw green iron ingot",
+  "item.phs-greenironmod.iron_grit": "Iron grit",
+  "item.phs-greenironmod.green_goo": "Green goo"
 }
