@@ -4,12 +4,15 @@ import net.minecraft.item.ItemGroup;
 import net.minecraft.item.ItemStack;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
+import net.minecraftforge.fml.ModLoadingContext;
 import net.minecraftforge.fml.common.Mod;
+import net.minecraftforge.fml.config.ModConfig;
 import net.minecraftforge.fml.event.lifecycle.*;
 import net.minecraftforge.fml.event.server.FMLServerStartingEvent;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
+import ua.patihox.greenironmod.config.GIMConfig;
 import ua.patihox.greenironmod.registry.RegistryHandler;
 import ua.patihox.greenironmod.world.gen.ModOreGen;
 
@@ -30,7 +33,7 @@ public class GreenIronMod
         final IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
         modEventBus.addListener(this::setup);
         modEventBus.addListener(this::doClientStuff);
-
+        ModLoadingContext.get().registerConfig(ModConfig.Type.COMMON, GIMConfig.COMMON_SPEC);
         instance = this;
         RegistryHandler.init();
     }
@@ -60,6 +63,13 @@ public class GreenIronMod
         @Override
         public ItemStack createIcon() {
             return new ItemStack(RegistryHandler.ANCIENT_PAPER.get());
+        }
+    }
+
+    @SubscribeEvent
+    public static void modConfigEvent(final ModConfig.ModConfigEvent configEvent) {
+        if (configEvent.getConfig().getSpec() == GIMConfig.COMMON_SPEC) {
+            GIMConfig.bakeConfig();
         }
     }
 
