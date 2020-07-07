@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "tag": "forge:dusts/iron"
+    },
+    {
+      "item": "ph_gim:green_grit"
+    }
+  ],
+  "result": {
+    "item": "ph_gim:green_iron_grit",
+    "count": 2
+  }
+}

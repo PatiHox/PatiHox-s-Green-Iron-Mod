@@ -28,6 +28,7 @@ public class RegistryHandler {
     public static final RegistryObject<Item> GREEN_CRYSTAL = ITEMS.register("green_crystal", BasicItem::new);
     public static final RegistryObject<Item> GREEN_IRON = ITEMS.register("green_iron", BasicItem::new);
     public static final RegistryObject<Item> GREEN_IRON_RAW = ITEMS.register("green_iron_raw", BasicItem::new);
+    public static final RegistryObject<Item> GREEN_IRON_GRIT = ITEMS.register("green_iron_grit", BasicItem::new);
     public static final RegistryObject<Item> GREEN_GOO = ITEMS.register("green_goo", BasicItem::new);
 
     //blocks

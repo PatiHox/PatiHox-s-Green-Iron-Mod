@@ -1,6 +1,0 @@
-{
-	"parent": "item/generated",
-	"textures":{
-		"layer0":"phs-greenironmod:items/green_iron_raw"
-	}
-}

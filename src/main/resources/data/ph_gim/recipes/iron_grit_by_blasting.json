@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:blasting",
+  "ingredient": {
+    "tag": "forge:ingots/iron"
+  },
+  "result": "ph_gim:iron_grit",
+  "experience": 0.15,
+  "cookingtime": 200
+}

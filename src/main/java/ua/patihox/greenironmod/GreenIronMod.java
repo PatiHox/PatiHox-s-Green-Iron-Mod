@@ -17,17 +17,17 @@ import ua.patihox.greenironmod.registry.RegistryHandler;
 import ua.patihox.greenironmod.world.gen.ModOreGen;
 
 // The value here should match an entry in the META-INF/mods.toml file
-@Mod("phs-greenironmod")
+@Mod(GreenIronMod.MOD_ID)
 @Mod.EventBusSubscriber(modid = GreenIronMod.MOD_ID, bus = Mod.EventBusSubscriber.Bus.MOD)
 public class GreenIronMod
 {
     private static final Logger LOGGER = LogManager.getLogger();
 
-    public static final String MOD_ID = "phs-greenironmod";
+    public static final String MOD_ID = "ph_gim";
 
     public static GreenIronMod instance;
 
-    public static final GreenIronItemGroup ITEM_GROUP = new GreenIronItemGroup(ItemGroup.GROUPS.length,"phs-greenirontab");
+    public static final GreenIronItemGroup ITEM_GROUP = new GreenIronItemGroup(ItemGroup.GROUPS.length,"ph_gim_tab");
 
     public GreenIronMod() {
         final IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();

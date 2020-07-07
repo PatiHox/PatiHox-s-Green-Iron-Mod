@@ -24,7 +24,7 @@
                   }
                 }
               ],
-              "name": "phs-greenironmod:green_ore"
+              "name": "ph_gim:green_ore"
             },
             {
               "type": "minecraft:item",
@@ -46,7 +46,7 @@
                   "function": "minecraft:explosion_decay"
                 }
               ],
-              "name": "phs-greenironmod:green_crystal"
+              "name": "ph_gim:green_crystal"
             }
           ]
         }

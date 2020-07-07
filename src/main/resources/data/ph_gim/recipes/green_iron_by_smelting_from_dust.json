@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": {
+    "item": "ph_gim:green_iron_grit"
+  },
+  "result": "ph_gim:green_iron",
+  "experience": 0.15,
+  "cookingtime": 200
+}

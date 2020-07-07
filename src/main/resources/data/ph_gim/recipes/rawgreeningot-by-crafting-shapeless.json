@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "tag": "forge:ingots/iron"
+    },
+    {
+      "item": "ph_gim:green_goo"
+    }
+  ],
+  "result": {
+    "item": "ph_gim:green_iron_raw"
+  }
+}

@@ -1,6 +1,6 @@
 {
   "parent": "item/generated",
   "textures":{
-    "layer0":"phs-greenironmod:items/iron_grit"
+    "layer0":"ph_gim:items/iron_grit"
   }
 }
