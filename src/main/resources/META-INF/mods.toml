@@ -2,24 +2,24 @@ modLoader="javafml" #mandatory
 
 loaderVersion="[31,)" #mandatory This is typically bumped every Minecraft version by Forge. See our download page for lists of versions.
 
-issueTrackerURL="http://www.patihox.com" #optional
+issueTrackerURL="https://github.com/PatiHox/PatiHox-s-Green-Iron-Mod/issues" #optional
 
 [[mods]] #mandatory
 
-modId="phs-greenironmod" #mandatory
+modId="ph_gim" #mandatory
 
-version="1.0" #mandatory
+version="0.0.2" #mandatory
 
 displayName="PatiHox's Green Iron" #mandatory
 
-updateJSONURL="http://www.patihox.com" #optional
+#updateJSONURL="http://www.patihox.com" #optional
 
-displayURL="http://www.patihox.com" #optional
+displayURL="https://github.com/PatiHox/PatiHox-s-Green-Iron-Mod" #optional
 
 # A file name (in the root of the mod JAR) containing a logo for display
-logoFile="examplemod.png" #optional
+logoFile="gim-logo.png" #optional
 
-credits="Thanks for this mod goes to Java, FML Team and TurtyWurty" #optional
+#credits="Thanks for this mod goes to Java, FML Team and TurtyWurty" #optional
 
 authors="PatiHox" #optional
 

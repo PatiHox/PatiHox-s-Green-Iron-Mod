@@ -1,0 +1,14 @@
+{
+  "block.ph_gim.green_ore": "Зелёная руда",
+
+  "itemGroup.ph_gim_tab": "PHsGIM",
+
+  "item.ph_gim.green_grit": "Зелёный порошок",
+  "item.ph_gim.ancient_paper": "Древние записи",
+  "item.ph_gim.green_crystal": "Зелёнорудный кристалл",
+  "item.ph_gim.green_iron": "Слиток зелёного железа",
+  "item.ph_gim.green_iron_raw": "Сырой слиток зелёного железа",
+  "item.ph_gim.iron_grit": "Железный порошок",
+  "item.ph_gim.green_goo": "Зелёная жижа",
+  "item.ph_gim.green_iron_grit": "Порошок зелёного железа"
+}

@@ -1,0 +1,6 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "ph_gim:blocks/green_ore"
+  }
+}
