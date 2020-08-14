@@ -38,21 +38,17 @@ public class GreenIronMod
         RegistryHandler.init();
     }
 
+
     private void setup(final FMLCommonSetupEvent event)
     {
         LOGGER.info("PatiHox is sharpening his green sword");
     }
 
+
+
     private void doClientStuff(final FMLClientSetupEvent event) {
         // do something that can only be done on the client
         LOGGER.info("Got game settings {}", event.getMinecraftSupplier().get().gameSettings);
-    }
-
-    // You can use SubscribeEvent and let the Event Bus discover methods to call
-    @SubscribeEvent
-    public void onServerStarting(FMLServerStartingEvent event) {
-        // do something when the server starts
-        LOGGER.info("HELLO from server starting");
     }
 
     public static class GreenIronItemGroup extends ItemGroup{
