@@ -1,12 +1,8 @@
-package ua.patihox.greenironmod.registry.container;
+package ua.patihox.greenironmod.registry.containers;
 
-import net.minecraft.block.ChestBlock;
-import net.minecraft.block.FurnaceBlock;
 import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.entity.player.PlayerInventory;
-import net.minecraft.inventory.container.ChestContainer;
 import net.minecraft.inventory.container.Container;
-import net.minecraft.inventory.container.ContainerType;
 import net.minecraft.inventory.container.Slot;
 import net.minecraft.item.ItemStack;
 import net.minecraft.network.PacketBuffer;
@@ -15,7 +11,6 @@ import net.minecraft.util.IWorldPosCallable;
 import ua.patihox.greenironmod.registry.RegistryHandler;
 import ua.patihox.greenironmod.registry.tileentities.GreenGrinderTileEntity;
 
-import javax.annotation.Nullable;
 import java.util.Objects;
 
 public class GreenGrinderContainer extends Container {

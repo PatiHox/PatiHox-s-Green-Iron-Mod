@@ -45,7 +45,15 @@ public class GreenGrinderBlock extends ContainerBlock {
     }
 
     @Override
+    public BlockRenderType getRenderType(BlockState state) {
+        return BlockRenderType.MODEL;
+    }
+
+
+
+    @Override
     public BlockState getStateForPlacement(BlockItemUseContext context){
+
         return this.getDefaultState().with(FACING, context.getPlacementHorizontalFacing().rotateY());
     }
 
@@ -81,4 +89,6 @@ public class GreenGrinderBlock extends ContainerBlock {
     public TileEntity createNewTileEntity(IBlockReader worldIn) {
         return new GreenGrinderTileEntity();
     }
+
+
 }

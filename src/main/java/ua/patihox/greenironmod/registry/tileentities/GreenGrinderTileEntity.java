@@ -9,7 +9,6 @@ import net.minecraft.inventory.ItemStackHelper;
 import net.minecraft.inventory.container.Container;
 import net.minecraft.item.ItemStack;
 import net.minecraft.nbt.CompoundNBT;
-import net.minecraft.tileentity.FurnaceTileEntity;
 import net.minecraft.tileentity.LockableLootTileEntity;
 import net.minecraft.tileentity.TileEntity;
 import net.minecraft.tileentity.TileEntityType;
@@ -28,7 +27,7 @@ import net.minecraftforge.items.IItemHandlerModifiable;
 import net.minecraftforge.items.wrapper.InvWrapper;
 import ua.patihox.greenironmod.registry.RegistryHandler;
 import ua.patihox.greenironmod.registry.blocks.GreenGrinderBlock;
-import ua.patihox.greenironmod.registry.container.GreenGrinderContainer;
+import ua.patihox.greenironmod.registry.containers.GreenGrinderContainer;
 
 import javax.annotation.Nonnull;
 

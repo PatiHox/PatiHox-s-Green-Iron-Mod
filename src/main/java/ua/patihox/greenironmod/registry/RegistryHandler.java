@@ -1,6 +1,5 @@
 package ua.patihox.greenironmod.registry;
 
-import com.google.common.base.Supplier;
 import net.minecraft.block.Block;
 import net.minecraft.inventory.container.ContainerType;
 import net.minecraft.item.BlockItem;
@@ -17,7 +16,7 @@ import ua.patihox.greenironmod.GreenIronMod;
 import ua.patihox.greenironmod.registry.blocks.DefaultBlock;
 import ua.patihox.greenironmod.registry.blocks.GreenGrinderBlock;
 import ua.patihox.greenironmod.registry.blocks.GreenOreBlock;
-import ua.patihox.greenironmod.registry.container.GreenGrinderContainer;
+import ua.patihox.greenironmod.registry.containers.GreenGrinderContainer;
 import ua.patihox.greenironmod.registry.items.BasicItem;
 import ua.patihox.greenironmod.registry.recipes.GrindingRecipe;
 import ua.patihox.greenironmod.registry.tileentities.GreenGrinderTileEntity;
